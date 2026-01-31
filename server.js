@@ -19,7 +19,11 @@ const mimeTypes = {
   '.gif': 'image/gif',
   '.svg': 'image/svg+xml',
   '.ico': 'image/x-icon',
-  '.txt': 'text/plain'
+  '.txt': 'text/plain',
+  '.mp3': 'audio/mpeg',
+  '.flac': 'audio/flac',
+  '.wav': 'audio/wav',
+  '.ogg': 'audio/ogg'
 };
 
 const server = http.createServer((req, res) => {
