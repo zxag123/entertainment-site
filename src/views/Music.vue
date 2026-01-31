@@ -19,7 +19,7 @@ const tracks: Track[] = [
     duration: 215, 
     emoji: '🏖️', 
     color: '#f59e0b',
-    src: '/music/周杰伦 杨瑞代 - 我要夏天.FLAC'
+    src: '/music/周杰伦 杨瑞代 - 我要夏天.mp3'
   },
   { 
     id: 2, 
@@ -28,7 +28,7 @@ const tracks: Track[] = [
     duration: 226, 
     emoji: '🌙', 
     color: '#6366f1',
-    src: '/music/周杰伦 - 夜曲.FLAC'
+    src: '/music/周杰伦 - 夜曲.mp3'
   },
   { 
     id: 3, 
@@ -37,7 +37,7 @@ const tracks: Track[] = [
     duration: 299, 
     emoji: '🌸', 
     color: '#ec4899',
-    src: '/music/周杰伦 - 七里香.FLAC'
+    src: '/music/周杰伦 - 七里香.mp3'
   }
 ]
 
