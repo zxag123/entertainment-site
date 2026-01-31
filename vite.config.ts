@@ -23,4 +23,14 @@ export default defineConfig({
     assetsDir: 'assets',
     sourcemap: true,
   },
+  server: {
+    fs: {
+      strict: false
+    }
+  },
+  preview: {
+    headers: {
+      'Access-Control-Allow-Origin': '*'
+    }
+  }
 })
